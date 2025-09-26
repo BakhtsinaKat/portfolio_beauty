@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Work</title>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="greeting">
+    <h1>Hi, I'm Katya Bakhtsina!</h1>
+    <p> I'm a retoucher. I work with photographers, beauty professionals, bloggers & brands.
+        Scroll down to see my work!
+    </p>
+  </div>
+
+
+  <div class="grid">
+    <div class="slider-box" id="slider1"></div>
+    <div class="slider-box" id="slider2"></div>
+    <div class="slider-box" id="slider3"></div>
+    <div class="slider-box" id="slider4"></div>
+    <div class="slider-box" id="slider5"></div>
+    <div class="slider-box" id="slider6"></div>
+     <div class="slider-box" id="slider7"></div>
+     <div class="slider-box" id="slider8"></div>
+  </div>
+
+  <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+  <script>
+   
+
+    new juxtapose.JXSlider('#slider1', [
+      { src: 'img/makeafter.jpg', label: 'Before' },
+      { src: 'img/makebefore.jpg', label: 'After' }
+    ], { animate: true, showLabels: false, makeResponsive: true });
+
+       new juxtapose.JXSlider('#slider2', [
+      { src: 'img/IMG_2624-beautyafter.jpg', label: 'Before' },
+      { src: 'img/IMG_2622-before.jpg', label: 'After' }
+    ], { animate: true, showLabels: false, makeResponsive: true });
+
+
+  new juxtapose.JXSlider('#slider3', [
+      { src: 'img/tattooafter.jpg', label: 'Before' },
+      { src: 'img/tattoobefore.jpg', label: 'After' }
+    ], { animate: true, showLabels: false, makeResponsive: true });
+   
+    new juxtapose.JXSlider('#slider4', [
+      { src: 'img/ttafter.jpg', label: 'Before' },
+      { src: 'img/tbefore.jpg', label: 'After' }
+    ], { animate: true, showLabels: false, makeResponsive: true });
+
+  
+    new juxtapose.JXSlider('#slider5', [
+      { src: 'img/cosm-after.jpg', label: 'Before' },
+      { src: 'img/cosm-before.jpg', label: 'After' }
+    ], { animate: true, showLabels: false, makeResponsive: true });
+
+     
+
+ new juxtapose.JXSlider('#slider6', [
+      { src: 'img/C72A6123-before.jpg', label: 'Before' },
+      { src: 'img/C72A6123-after.jpg', label: 'After' }
+    ], { animate: true, showLabels: false, makeResponsive: true });
+
+      new juxtapose.JXSlider('#slider7', [
+      { src: 'img/J3A956511ww11.jpg', label: 'Before' },
+      { src: 'img/J3A9565before.jpg', label: 'After' }
+    ], { animate: true, showLabels: false, makeResponsive: true });
+
+      
+       new juxtapose.JXSlider('#slider8', [
+      { src: 'img/MES0768-1before.jpg', label: 'Before' },
+      { src: 'img/MES0768-1.jpg', label: 'After' }
+    ], { animate: true, showLabels: false, makeResponsive: true });
+
+
+      
+
+    
+
+    
+  </script>
+
+</body>
+</html>
